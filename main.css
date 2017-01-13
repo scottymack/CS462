@@ -1,1 +1,239 @@
+/* The navigation bar */
 
+body {margin:0;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0A100E;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+}
+
+    .floatright {
+        float:right;
+        width:auto;
+    }
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #565656;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+/* Main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+        #page1 {
+            display: flex;
+            justify-content: center;
+            height:1000px;
+            background-color: #D7CEC7;
+            background-image: url('mountains-392669_1920.jpg');
+            background-size: cover;
+            background-position: center;
+    } 
+    
+        #page2 {
+            display: flex;
+            justify-content: center;
+            height:1000px;
+            background-color: #100A0C;
+            background: linear-gradient(#100A0C, #4B3838); /* Standard syntax */
+    } 
+    
+        #aboutContent 
+        {
+            align-self: center;
+            margin-top: -500px;
+            color: white;
+            font-family: Papyrus, fantasy;
+        }
+
+        #page3 
+        {            
+            display: flex;
+            justify-content: center;
+            height:1000px;
+            background-color: #100A0C;
+            background: linear-gradient(#4B3838, #FEB554); /* Standard syntax */
+        }
+
+        #projectsContent 
+        {
+            align-self: center;
+            color: white;
+        }
+
+        #page4 
+        {
+            display: flex;
+            justify-content: center;
+            height:1000px;
+            background-color:#4B3838;
+            background: linear-gradient(#FEB554, #FEEFB0); /* Standard syntax */
+        } 
+        
+        #experienceContent 
+        {
+            align-self: center;
+            color: white;
+            font-family: Papyrus, fantasy;
+        }
+
+        #primary {
+            font-family: Papyrus, fantasy;
+            float: left;
+            text-align: center;
+            margin-top: 250px;
+            width: 33%;
+        }
+
+        #content {
+            font-family: Papyrus, fantasy;
+            float: left;
+            text-align: center;
+            margin-top: 250px;
+            width: 33%;
+        }
+
+        #divider {
+            height: 250px;
+            margin-top: 230px;
+            border-left: 1px solid #f2f2f2;
+        }
+
+        #secondary {
+            font-family: Papyrus, fantasy;
+            float: left;
+            text-align: center;
+            margin-top: 250px;
+            width: 33%;
+        }
+
+        #aboutMe {
+            text-align: center;
+            font-family: Papyrus, fantasy;
+        }
+
+        #page5 {
+        height:200px;
+            background-color: #FEEFB0;
+            background: linear-gradient(#FEEFB0, #FFCDA0);
+            text-align: center;
+    } 
+
+#github {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter",
+}
+
+#linkedin {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#me {
+    font-size: 55px;
+    position: absolute;
+    top: 40%;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: Papyrus, fantasy;
+}
+
+#arrow{
+    font-size: 55px;
+    background-color: Transparent;
+    border: none;
+    position: absolute;
+    top: 65%;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: Papyrus, fantasy;
+}
+
+a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.button {
+    background-color: #0A100E; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin: 10px;
+}
+
+.button:hover 
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.floated_img
+{
+    float: left;
+    width: 33%;
+    text-align: center;
+    font-family: Papyrus, fantasy;
+    margin-top: 200px;
+}
+
+.height:hover 
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.height 
+{
+    height: 200px;
+    margin: 10px;
+    border: 1px ridge black;
+}
