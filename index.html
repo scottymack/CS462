@@ -25,8 +25,9 @@
         cd /var/www/html/<br>
         git init<br>
         git remote add origin https://github.com/scottymack/CS462.git<br>
-        git fetch<br>
         git checkout origin/master -ft<br>
+        git fetch —all
+	    git reset —hard origin/master
         echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php<br>
     </p>
     
