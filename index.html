@@ -9,25 +9,25 @@
 <body>
 
 <h1> Name: Scott McKenzie </h1>
-    <h2> AMI ID : ami-4754e927</h2>
-    <p> Shell Script:
-        #!/bin/bash
-        yum update -y
-        yum install -y httpd24 php56 mysql55-server php56-mysqlnd git-all
-        service httpd start
-        chkconfig httpd on
-        groupadd www
-        usermod -a -G www ec2-user
-        chown -R root:www /var/www
-        chmod 2775 /var/www
-        find /var/www -type d -exec chmod 2775 {} +
-        find /var/www -type f -exec chmod 0664 {} +
-        cd /var/www/html/
-        git init
-        git remote add origin https://github.com/scottymack/CS462.git
-        git fetch
-        git checkout origin/master -ft
-        echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php
+    <h2> AMI ID : </h2>
+    <p> Shell Script:<br>
+        #!/bin/bash<br>
+        yum update -y<br>
+        yum install -y httpd24 php56 mysql55-server php56-mysqlnd git-all<br>
+        service httpd start<br>
+        chkconfig httpd on<br>
+        groupadd www<br>
+        usermod -a -G www ec2-user<br>
+        chown -R root:www /var/www<br>
+        chmod 2775 /var/www<br>
+        find /var/www -type d -exec chmod 2775 {} +<br>
+        find /var/www -type f -exec chmod 0664 {} +<br>
+        cd /var/www/html/<br>
+        git init<br>
+        git remote add origin https://github.com/scottymack/CS462.git<br>
+        git fetch<br>
+        git checkout origin/master -ft<br>
+        echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php<br>
     </p>
     
 </body>
