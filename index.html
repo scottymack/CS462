@@ -9,7 +9,7 @@
 <body>
 
 <h1> Name: Scott McKenzie </h1>
-    <h2> AMI ID : </h2>
+    <h2> AMI ID : ami-4754e927</h2>
     <p> Shell Script:
         #!/bin/bash
         yum update -y
@@ -24,7 +24,7 @@
         find /var/www -type f -exec chmod 0664 {} +
         cd /var/www/html/
         git init
-        git remote add origin [my-repo]
+        git remote add origin https://github.com/scottymack/CS462.git
         git fetch
         git checkout origin/master -ft
         echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php
